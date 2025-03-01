@@ -1,0 +1,20 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+        digitalclock: <span></span>
+    </body>
+    <script>
+        setInterval(function(){
+            let ct=new Date().toLocaleTimeString()
+            document.getElementsByTagName("span")[0].innerHTML= ct
+
+        },1000)
+
+        
+      //set time out executing provided function after interval 2second
+      //set interval executing provided function  interval everysecond
+
+    </script>
+</html> 

@@ -1,0 +1,33 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+        <!-- <label for="text"> text</label>
+
+        <input type="text"   onfocus="changecolor()"  id="abc"> -->
+
+
+        
+        <label for="text"> blur</label>
+
+        <!-- at ther time loose the focus -->
+
+        <input type="text"   onblur="changecolor()"  id="ab"> 
+
+    </body>
+    <script>
+        function changecolor(){
+            // let i=document.getElementById("abc")
+            // i.style.backgroundColor="green"
+
+            
+            let v=document.getElementById("ab")
+             v.value = v.value.toUpperCase()
+
+            //alert("haoii"
+        
+             v.style.backgroundColor="yellow"
+        }
+    </script>
+</html>

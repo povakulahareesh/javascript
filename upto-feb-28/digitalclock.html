@@ -1,0 +1,32 @@
+
+
+<html lang="en">
+<head>
+        <title>Document</title>
+</head>
+<body>
+    digital clock:
+    <span>  </span>
+    
+</body> 
+
+
+
+<script>
+setInterval(function(){
+    let ct=new Date().toLocaleTimeString()
+document.getElementsByTagName("span")[0].innerHTML= ct
+
+
+ },1000)
+// let ct=new Date().toLocaleTimeString()
+// document.getElementsByTagName("span")[0].innerHTML= ct
+ 
+
+
+// let ct=new Date().toLocaleTimeString()
+//             document.getElementsByTagName("span")[0].innerHTML= ct
+
+
+</script>
+</html>   

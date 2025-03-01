@@ -1,0 +1,44 @@
+<html>
+
+<head>
+
+</head>
+
+<body>
+    <h4>Form Validations</h4>
+    <form onsubmit="return validateForm()">
+        <label>Email Id:</label>
+        <input type="text" id="email" /> <br>
+        <span id="email_msg"></span>
+        <br> <br>
+        <label>Password</label>
+        <input type="password" id="pwd" /> <br>
+        <!-- <span id="pwd_msg"></span> -->
+         <div id="pwd_msg"></div>
+        <br><br>
+        <input type="submit" value="Login" />
+    </form>
+
+</body>
+
+<script>
+
+    function validateForm() {
+        //alert('Test Case 123')
+        let emailId = document.getElementById('email').value;
+        let pwd = document.getElementById('pwd').value;
+
+        if (emailId === "") {
+            document.getElementById("email_msg").innerHTML = "Please enter an email id"
+        }
+        if (pwd === "") {
+            document.getElementById("pwd_msg").innerHTML = "Please enter the password"
+        }
+
+        return false
+    }
+
+
+</script>
+
+</html>
