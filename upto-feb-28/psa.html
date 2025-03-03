@@ -1,0 +1,45 @@
+<html>
+    <head>
+<title>form Validations</title>
+    </head>
+    <body>
+        <h4>form Validations</h4>
+        <form onsubmit="return validate()">
+
+            <label>email*</label>
+            <input type="email" id="ab">
+            <br>
+            <span style="color: red;" id="aaa"></span>
+            <br><br>
+
+            
+            <label>password*</label>
+            <input type="password" id="abc">
+            <br>
+            <span style="color: red;" id="bbb"></span>
+            <br><br>
+
+            <input type="submit" name="" id="Login">
+
+        </form>
+        
+    </body> 
+    <script>
+        function validate(){
+            //alert("please enter given details")
+             let mail=document.getElementById("ab").value
+           let pass = document.getElementById("abc").value
+if(mail===""){
+    document.getElementById("aaa").innerHTML="please enter email"
+
+}
+if (pass===""){
+    document .getElementById("bbb").innerHTML="please enter password"
+}
+return false
+
+
+        }
+
+    </script>
+</html>
