@@ -4,6 +4,9 @@
     </head>
     <body>
         <h4>form Validations</h4>
+        <!-- 
+The onsubmit="return validate()" ensures that when the user clicks the submit button, the validate() JavaScript function runs before the form submits.
+If validate() returns false, form submission is prevented. -->
         <form onsubmit="return validate()">
 
             <label>email*</label>
@@ -25,6 +28,8 @@
         
     </body> 
     <script>
+
+        
         function validate(){
             //alert("please enter given details")
              let mail=document.getElementById("ab").value
