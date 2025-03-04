@@ -27,18 +27,18 @@
 // console.log(    new employee())
 
 
-class employee{
+// class employee{
 
-}
+// }
 
 
 
- let a=new employee()
-let c=new employee()
-let b=new employee()
-console.log(a);
-console.log(c);
-console.log(b);
+//  let a=new employee()
+// let c=new employee()
+// let b=new employee()
+// console.log(a);
+// console.log(c);
+// console.log(b);
 
 
 
@@ -99,3 +99,7 @@ console.log(b);
 // e1.deposit_amount()
 // e1.get_bal()
 // e1.close_account()
+
+
+
+
