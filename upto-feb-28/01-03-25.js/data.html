@@ -1,21 +1,19 @@
-<!-- <!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- <script src="data.js" type="text/javascript"></script> -->
+     <!-- <script src="data.js" type="text/javascript"></script> -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body onload="data()">
-    <h1>emp data into html</h1>
-    <table border="3">
+<body>
+    <table>
         <thead>
-            <th>id</th>
-            <th>name</th>
-            <th>emil</th>
-            <th>gender</th>
+
         </thead>
-        <tbody id="td"></tbody>
+        <tbody>
+            
+        </tbody>
     </table>
     
 </body>
@@ -78,25 +76,8 @@ let users = [{ "id": 1, "name": "Hewes", "email": "dhewes0@mozilla.com", "gender
 
     //String Literals (${}): This syntax is used for embedding expressions inside strings, which allows you to insert dynamic data like user.id, user.name, etc.
 
-    function data(){
-         let rows="";
-         for(user of users){
-            rows=rows+` <tr>
-           
-         
-            <td>${user.id}</td>
-            <td>${user.name}</td>
-            <td>${user.email}</td>
-            <td>${user.gender}</td>
-            
-            
-            
-            </tr>`;
-        
-         }
 
-         document.getElementById("td").innerHTML=rows
-    }
+
 
 </script>
 </html> 

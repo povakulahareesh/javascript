@@ -312,7 +312,7 @@
 // a1.withdrawl(15)
 // a2.withdrawl(5000)
 // console.log(a1)
-// console.log(a2)
+// console.log(a2)s
 
 // console.log(a1.get_Bal())
 // console.log(a2.get_Bal())
