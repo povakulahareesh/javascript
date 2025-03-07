@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body onload="account()">
+    <table border="3">
+        <thead>
+            <th>id</th>
+            <th>name</th>
+            <th>email</th>
+            <th>gender</th>
+
+        </thead>
+        <!-- table body reference -->
+        <tbody id="abc"></tbody>
+
+        
+    </table>
+    
+</body>
+
+<script>
+    let users=[{"id":1,"first_name":"Julietta","email":"jhatchell0@ox.ac.uk","gender":"Female"},
+{"id":2,"first_name":"Garwood","email":"gsoles1@de.vu","gender":"Male"},
+{"id":3,"first_name":"Eolanda","email":"estrodder2@php.net","gender":"Female"},
+{"id":4,"first_name":"Starr","email":"spagden3@indiatimes.com","gender":"Female"},
+{"id":5,"first_name":"Brody","email":"bchattock4@nymag.com","gender":"Male"},
+{"id":6,"first_name":"Lesya","email":"lkleeborn5@odnoklassniki.ru","gender":"Female"},
+{"id":7,"first_name":"Hill","email":"hinseal6@jimdo.com","gender":"Male"},
+{"id":8,"first_name":"Marylin","email":"mmuggeridge7@cbslocal.com","gender":"Female"},
+{"id":9,"first_name":"Adan","email":"abrewin8@jugem.jp","gender":"Female"},
+{"id":10,"first_name":"Darell","email":"dnorthridge9@alibaba.com","gender":"Female"},
+{"id":11,"first_name":"Deana","email":"dgrinnikova@g.co","gender":"Female"},
+{"id":12,"first_name":"Ellswerth","email":"eevertb@ucoz.ru","gender":"Male"},
+{"id":13,"first_name":"Danica","email":"ddrakersc@github.com","gender":"Female"},
+{"id":14,"first_name":"Minnnie","email":"mjahnsd@spotify.com","gender":"Female"},
+{"id":15,"first_name":"Kendrick","email":"ktrahmele@meetup.com","gender":"Male"},
+{"id":16,"first_name":"Rochell","email":"rbowringf@1688.com","gender":"Female"},
+{"id":17,"first_name":"Filbert","email":"ffrankg@nba.com","gender":"Male"},
+{"id":18,"first_name":"Guglielmo","email":"gtattonh@prnewswire.com","gender":"Male"},
+{"id":19,"first_name":"Sharai","email":"sgommesi@jigsy.com","gender":"Female"},
+{"id":20,"first_name":"Vere","email":"vrobbekej@timesonline.co.uk","gender":"Female"},
+{"id":21,"first_name":"Sheff","email":"sjirousekk@wikipedia.org","gender":"Polygender"},
+{"id":22,"first_name":"Linda","email":"ldoretl@mashable.com","gender":"Female"},
+{"id":23,"first_name":"Justin","email":"jsantorinim@vk.com","gender":"Male"},
+{"id":24,"first_name":"Zebedee","email":"zsymmersn@epa.gov","gender":"Male"},
+{"id":25,"first_name":"Dewie","email":"dyurocjhino@elegantthemes.com","gender":"Male"},
+{"id":26,"first_name":"Gilles","email":"gpoilep@google.it","gender":"Male"},
+{"id":27,"first_name":"Cole","email":"callawayq@go.com","gender":"Male"},
+{"id":28,"first_name":"Base","email":"bbigginr@amazonaws.com","gender":"Male"},
+{"id":29,"first_name":"Melinda","email":"mkliesls@globo.com","gender":"Female"},
+{"id":30,"first_name":"Hildy","email":"hmalint@yahoo.co.jp","gender":"Female"},
+{"id":31,"first_name":"Avrom","email":"aallsopu@whitehouse.gov","gender":"Non-binary"},
+{"id":32,"first_name":"Aldin","email":"amcmorlandv@illinois.edu","gender":"Male"},
+{"id":33,"first_name":"Gladys","email":"ghayw@va.gov","gender":"Female"},
+{"id":34,"first_name":"Benedict","email":"bsoppx@senate.gov","gender":"Male"},
+{"id":35,"first_name":"Mitzi","email":"mbetony@phpbb.com","gender":"Female"},
+{"id":36,"first_name":"Terencio","email":"tmenghiz@adobe.com","gender":"Male"},
+{"id":37,"first_name":"Ophelia","email":"oguisler10@dmoz.org","gender":"Female"},
+{"id":38,"first_name":"Nisse","email":"nputtock11@nasa.gov","gender":"Female"},
+{"id":39,"first_name":"Phedra","email":"pbeggs12@delicious.com","gender":"Female"},
+{"id":40,"first_name":"Craggie","email":"cmichele13@issuu.com","gender":"Male"},
+{"id":41,"first_name":"Idell","email":"iheber14@sfgate.com","gender":"Female"},
+{"id":42,"first_name":"Genia","email":"ghambridge15@prweb.com","gender":"Female"},
+{"id":43,"first_name":"Kellie","email":"kduffet16@reddit.com","gender":"Female"},
+{"id":44,"first_name":"Yardley","email":"yhalcro17@bravesites.com","gender":"Male"},
+{"id":45,"first_name":"Shaun","email":"schamberlin18@exblog.jp","gender":"Female"},
+{"id":46,"first_name":"Rockey","email":"rattewill19@noaa.gov","gender":"Male"},
+{"id":47,"first_name":"Eric","email":"eivatt1a@nature.com","gender":"Male"},
+{"id":48,"first_name":"Francois","email":"fmcwaters1b@japanpost.jp","gender":"Male"},
+{"id":49,"first_name":"Nickolaus","email":"nbeincken1c@surveymonkey.com","gender":"Male"},
+{"id":50,"first_name":"Gian","email":"gchaffin1d@drupal.org","gender":"Male"}]
+    function  account(){
+        rows=""
+        //alert("mamajii")
+        for(user of users){
+            if (user.gender=="Male"){
+                rows=rows+`<tr>
+                    <td>${user.id}</td>
+                    <td>${user.first_name}</td>
+                    <td>${user.email}</td>
+                    <td>${user.gender}</td>
+                    
+
+                    </tr>`
+            }
+        }
+
+        document.getElementById("abc").innerHTML=rows
+    }
+</script>
+</html>

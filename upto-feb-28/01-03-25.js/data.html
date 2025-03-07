@@ -6,20 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body>
-    <table>
+<body onload="data()">
+    <table border="3">
         <thead>
+            <th>id </th>
+            <th>name  </th>
+            <th>email </th>
+            <th>gender</th>
 
         </thead>
-        <tbody>
-            
+        <!-- how to get t-body reference using id -->
+        <tbody id="ab">
+
         </tbody>
     </table>
     
 </body>
 <script>
 
-
+//
     
 let users = [{ "id": 1, "name": "Hewes", "email": "dhewes0@mozilla.com", "gender": "Male" },
     { "id": 2, "name": "Farfalameev", "email": "mfarfalameev1@harvard.edu", "gender": "Male" },
@@ -75,7 +80,25 @@ let users = [{ "id": 1, "name": "Hewes", "email": "dhewes0@mozilla.com", "gender
     //print employee data into html table
 
     //String Literals (${}): This syntax is used for embedding expressions inside strings, which allows you to insert dynamic data like user.id, user.name, etc.
+function data(){
 
+
+    row=""
+for(user of users){
+    row=row+`<tr>
+        
+        <td>${user.id}</td>
+        <td>${user.name}</td>
+        <td>${ user.email}</td>
+        <td>${ user.gender}</td>
+        
+        
+        </tr>`
+}
+
+
+document.getElementById("ab").innerHTML=row
+}
 
 
 
