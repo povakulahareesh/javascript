@@ -1,0 +1,6 @@
+what is constuctor
+
+consrtuctor is a special method,to initialize  object values
+consrtuctor method will invoke automtically at the time of object creation
+constuctor method  we can't invoke explecitly
+it will invoke only once //multiple times can't invoke

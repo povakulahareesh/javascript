@@ -10,3 +10,16 @@ console.log(new employee())
 // console.log(a);
 // console.log(c);
 // console.log(b);
+
+
+
+
+
+// class Account{
+
+// }
+
+
+// let n1=new Account();
+// console.log(n1);
+

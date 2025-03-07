@@ -150,9 +150,36 @@ console.log(a3)
 //class is a template to construct object
 //ONCE OBJECTS ARE CREATED MEMORY ALLOCATION WILL BE ALLOCATED
 
+//class name starts with capital letter like Employee
 
-
-// class employee{
+// class Employee{
 
 // }
-// console.log(new employee())
+// console.log(new Employee())
+
+
+
+// class Account{
+
+// }
+
+
+// let n1=new Account();
+// console.log(n1);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
