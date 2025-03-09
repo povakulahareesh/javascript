@@ -15,15 +15,14 @@
 
 
 // let a=100;
+// let b=78;
 // var add = ()=>{
 
     
-//     console.log("addition")
+//     console.log(a+b)
+// console.log("addition");
 
 // }
-
-
-
 // add()
 
 

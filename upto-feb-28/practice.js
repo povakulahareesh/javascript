@@ -1,5 +1,8 @@
   // chaithanya anna
-  // let names=["Rahul","siva","Arjum","kumar"]
+
+
+
+  let names=["Rahul","siva","Arjum","kumar"]
 
 //  arr=[]
 

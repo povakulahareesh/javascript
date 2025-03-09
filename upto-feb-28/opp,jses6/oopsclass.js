@@ -1,3 +1,6 @@
+
+// “OOPS” stands for “Object-Oriented Programming System”
+
 // class employee {
 //     //class is templete or data type
 //     //to construct objects
