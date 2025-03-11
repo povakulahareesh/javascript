@@ -13,10 +13,10 @@
 // class employee{
 
 // }
- //once class is there we can create n no of objects
- //ONCE OBJECTS ARE CREATED MEMORY ALLOCATION WILL BE ALLOCATED // memory allocated is a reference variable//reference object
+//  //once class is there we can create n no of objects
+//  //ONCE OBJECTS ARE CREATED MEMORY ALLOCATION WILL BE ALLOCATED // memory allocated is a reference variable//reference object
 // console.log(    new employee())
-// console.log(    new employee())
+// // console.log(    new employee())
 // console.log(    new employee())
 // console.log(    new employee())
 // console.log(    new employee())

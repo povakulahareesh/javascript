@@ -7,7 +7,7 @@
 // var eidc=1012;//variable
 // function get_detailes(){}//it is a function
 // class Employee{
-// //class is a template or data type/plan /draft to nconstructb object
+// //class is a template or data type/plan /draft to construct object
 // //once  object is created memory allocation will be allocated
 // }
 // new Employee()
@@ -26,14 +26,15 @@
 //          } // functions  keywords not allowed in side the function
 // }
 // let a1= new Account()
-// // let a2= new Account()
+// let a2= new Account()
+// //a1.open_account()
 //  console.log(a1);
-// //  console.log(a2);
+//   console.log(a2);
 
 //  //how to access class members (property/method)?
-//  //usin object
+//  //using     object
 //  //how to access class members?//out side a classs using  object  inside a clss this key word
-//  a1.open_account()//method
+// a1.open_account()//method
 //  a1.acc_id//property
  
 
@@ -128,13 +129,7 @@
 //         //i want to update my acc _bal
 //         //how to access account_balance
 //         //this is a refer to current object
-//         this.acc_bal=this.acc_bal+amount
-
-        
-
-
-
-        
+//         this.acc_bal=this.acc_bal+amount           
 //     }
 // } 
 // //to refer class members  in side of the class  we are using this key word inside the class

@@ -78,12 +78,13 @@ let users = [{ "id": 1, "name": "Hewes", "email": "dhewes0@mozilla.com", "gender
     { "id": 50, "name": "Yansons", "email": "vyansons1d@senate.gov", "gender": "Female" }];
         /* we using string literal */ 
     //print employee data into html table
+    //String Literals (${}):read variable in the form of string
 
     //String Literals (${}): This syntax is used for embedding expressions inside strings, which allows you to insert dynamic data like user.id, user.name, etc.
 function data(){
+//In JavaScript, backticks (`) are used to define template literals
 
-
-    row=""
+    rows=""
 for(user of users){
     row=row+`<tr>
         
