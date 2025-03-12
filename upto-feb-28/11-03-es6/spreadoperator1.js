@@ -38,9 +38,9 @@
 
  
 
-//  let emp={"eid":101, "ename":"hhh","email":"hh@gmail.com"}
-//  let details={"email":"ii@gmail.com","sal":222222}
-//  let emp_detailes={...emp,esal:222,  ...details,job:"software"}
+ let emp={"eid":101, "ename":"hhh","email":"hh@gmail.com"}
+ let details={"email":"ii@gmail.com","sal":222222}
+ let emp_detailes={...emp.esal=222,  ...details.job="software"}
 
-//  console.log(emp_detailes);
+ console.log(emp_detailes);
  

@@ -25,3 +25,8 @@
 
 //  console.log(uids);
 //  console.log(eids);
+
+
+let eids=["hjk","resw","rew","rewfdsa",]; let aa=["rfds","tfrdesw","fdsa"]
+let c=[...eids,     ...aa]
+console.log(c);

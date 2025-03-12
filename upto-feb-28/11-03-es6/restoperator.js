@@ -14,6 +14,8 @@
 
 //with rest operator
  
+
+
 function add(a,...b){
     console.log("a value:",a, "and b value",b);  
 }
