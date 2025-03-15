@@ -3,4 +3,4 @@ let tax =12;
     return 5;
 
  }
- module.exports=tax;  //es5-default element
+ module.exports={tax,get_discount};  //es5-default element

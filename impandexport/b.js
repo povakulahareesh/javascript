@@ -1,5 +1,9 @@
-let tax =require("./a.js")  // es5 default importnode
+// let {tax,get_discount} =require("./a.js")  // es5 default importnode
+import {tax,get_discount} from "./a.js"
+
 console.log(tax);
 
 
-let discount_value=get_discount()
+let d=get_discount()
+console.log(d);
+
