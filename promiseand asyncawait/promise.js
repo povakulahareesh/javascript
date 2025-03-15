@@ -22,3 +22,32 @@ createemployee({"id":102,"name":harsha,sal:90000}).then((msg)=>{
 })
 //if any function return one promice object will go .then .catch
 // we have create employee function am invoking create employee function
+
+
+
+
+
+
+
+
+//promise
+//success and failure is a function
+//success means message
+//failure means error
+// let gotomovie=(success,failure)=>{
+//     let amount =800
+//     if(amount>500){
+//         success("goo")
+//     }
+//     else{
+//         failure("pooo")
+//     }
+//  }
+//  gotomovie((msg)=>{
+//     console.log(msg);
+    
+//  },(err)=>{console.log(err);
+//  })
+
+// first function representing success 
+//second function representing representing failure

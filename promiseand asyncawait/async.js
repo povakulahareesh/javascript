@@ -7,15 +7,16 @@
   * 
   * 
   * 
-  * while executing the staterment async  we are getting a problems that problems we are going achive through the
+  * while executing the statement async  we are getting a problems that problems we are going achive through the
   *  call back--> at the time of invoking the function  we are (passing function as a argument)
   * promise 
   * async and await
+  * 
   * node js and  javascript are async programming
   * 
   */
-
-// at the time of invoking the function i am passing  one function as argument one more function as a argument   
+//call back --> passing function as argument
+// at the time of invoking the function i am passing  one function as argument one more function as a argument  known as argument  
 //and iam going to check one variable 
 
  let gotomovie=(success,failure)=>{
