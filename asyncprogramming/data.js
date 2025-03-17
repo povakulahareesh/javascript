@@ -2,16 +2,15 @@ let employees =[
     {eid:101,ename:"hareesh",esal:34567},
     {eid:11,ename:"ha",esal:347}
 ]
- 
 // passing function as aargument  known as call back
 //create new employee object
 let createemployee=(emp,callback)=>{
-  //  set timeout it is inbult function execute provided function after certain time interval
+//  set timeout it is inbult function execute provided function after certain time interval
 setTimeout(() => {
     employees.push(emp)
     callback()
     
-}, 4000);
+},4000);
 } 
 // iterate
 let getemployee=()=>{

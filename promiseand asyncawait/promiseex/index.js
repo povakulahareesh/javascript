@@ -61,3 +61,18 @@ createemployee(  {eid:1,ename:"h",esal:3})
     //error means here failed
 }).catch((err)=>{err})
 // getemployee()
+
+
+
+/**
+ * blue print of promise 
+ * let create employee=()={
+ * return new promise ((resolve, reject)=>{
+ * let flag =true/false
+ * flag?resolve("r"):reject("false")
+ * 
+ * 
+ * })}
+ * create (emp).then().cxatch
+ * 
+ */

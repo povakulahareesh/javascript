@@ -1,5 +1,9 @@
 const bcrypt = require('bcrypt');
 
+
+// * npm init -y
+// * npm i bcrypt
+
 let user = {
     uid: 101,
     cc: '1234567812345678',
