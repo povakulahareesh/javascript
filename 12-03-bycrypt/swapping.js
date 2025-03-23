@@ -1,5 +1,5 @@
-let a=20,b=22
-[a,b]=[b,a]
+let a=20,b=22;
+[a,b]=[b,a];
 console.log(a,b);
 
 

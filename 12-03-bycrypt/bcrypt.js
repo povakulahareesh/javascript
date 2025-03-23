@@ -11,14 +11,13 @@
 */
 const bcrypt=require("bcrypt")
 
-// it is user sencitive data
+// it is user sensitive data
 
 // we are getting user object through the registraction form
 let user={
     email:"user@gmail.com",
     cc:"44442098765432",
     cvv:4567
-
 }
 
 console.log(user);
