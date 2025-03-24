@@ -10,6 +10,7 @@ setTimeout(() => {
     employees.push(emp)
     callback()
     
+    
 },4000);
 } 
 // iterate
