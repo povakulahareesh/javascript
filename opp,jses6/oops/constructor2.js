@@ -36,9 +36,10 @@ console.log(a2)
 
 console.log(a1.get_Bal())
 console.log(a2.get_Bal())
-console.log(a2.acc_id())
 
-//optional
+
+// optional
+// console.log(a2.acc_id())
 //how to access class members inside a class this keyword out side a class object
 
  console.log("ac.id:",a1.acc_id,"and name:",a1.acc_name)

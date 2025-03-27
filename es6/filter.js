@@ -101,13 +101,12 @@
 //     }
 // ]
 
+
+
 // let male_users=emp.filter((emps)=>{
 //     return  emps.gender==="Male"
 // })
 // console.log(male_users.length);
-
-
-
 
 
 

@@ -101,7 +101,6 @@ let emp=[
     }
 ]
 
-
 let male_users=emp.filter((emps)=>{
     return  emps.gender==="Male"
 })

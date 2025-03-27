@@ -1,5 +1,5 @@
 //task
-//digitalclock tmage to string
+//digitalclock image to string
 
 //with function
 
