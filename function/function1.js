@@ -8,7 +8,7 @@
 // add(22,33)
 // // add(2,6)
 
-
+//=========================================
 // function ki parameter c=1 ichamu
 
 
@@ -25,7 +25,7 @@
 
 
 
-
+//==============================================
 
 
 // function calage(year){
@@ -36,27 +36,27 @@
 //  console.log(age1)
 
 
-
+//======================================
 
 // function cal_age(birth_year){
-
-
 // let current_year=newdate().getfullyear()
 // return current_year - birth_year;
 // }
+// let r=cal_age(1999)
+// console.log(r);
 
 
-//  let dt=new date();
-
-//  console.log("current date",dt.date())
+//=============================================
 
 
+//  let dt=new Date();
+
+//  console.log("current date",dt.getDate())
+//  console.log("current date",dt.getMonth())
+//  console.log("current date",dt.getFullYear())
 
 
-
-
-
-
+//===========================================
 // function login(){
 
 // console.log("gm")
@@ -64,6 +64,8 @@
 // }
 // let msg=login();
 // console.log(msg)
+
+//==========================================
 
 
 // function login1() {
@@ -85,14 +87,14 @@
 // console.log(ret)
 // console.log("statement after")
 
-
+//===================================================
 
 // let dt=new Date();
 // console.log("current date:",dt.getDate())
 // console.log("current month:",dt.getMonth())
 // console.log("current year:",dt.getFullYear())
 
-
+//==============================================
 
 
 
@@ -101,13 +103,15 @@
 //     return result
 // }
 // console.log(sum(2,2)) //function calling
-
+//===========================================
 
 //  var add=function sum(num1,num2){
 //     var result=num1+num2
 //     return result;5
 // }
 // var res= add(4,2)
+//console.log( res);
+//=================================
 
 
 // //arrow function
@@ -118,26 +122,26 @@
 
 // product(3,3)
 
-
+//======================
 
 
 // product=(num1,num2)=>num1*num2
 // console.log(product(7,2))
 
-
+//=====================
 
 // product=num1=>num1*num1
 
 // console.log(product(7))
 
-
+//========================
 
 
 // var greet=_=> console.log("good morning");
 // greet()
 
 
-
+//========================================
 
 // var greet=_=>{
 //      console.log("good morning")
@@ -150,7 +154,7 @@
 // var res=greet()
 // console.log(res)
 
- 
+ //=======================================
 //new functions
 
 

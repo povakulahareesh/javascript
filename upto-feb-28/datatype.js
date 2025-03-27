@@ -1,20 +1,31 @@
-// // var a="harish";
-// // var b=5.5;
-// // var c=33;
-// // var d=["hiiiiiiiii","kk",9999];
-// // console.log(a);
-// // console.log(b);
-// // console.log(c);
-// // console.log(d);
+// var a="harish";
+// var b=5.5;
+// var c=33;
+// var d=["hiiiiiiiii","kk",9999];
+// console.log(a);
+// console.log(b);
+// console.log(c);
+// console.log(d);
+// console.log(typeof(d));
+// console.log(typeof(a));
+// console.log(typeof(b));
+// console.log(typeof(c));
+
+//========================
+
 // function loginout(){
 //     console.log("loginout  sucess!")
 
 // }
-// // loginout()
-// class employe{}
+// loginout()
+
+
+//  class employe{} --> hw to create class 
+
+//  //=====================================
 // var emp={
-//     "eid":104
-//     "ename"="harish"
+//     "eid":104,
+//     "ename":"harish"
 // }
 // console.log(emp)
 //  var brand=["dimmy","kk","ll"]
@@ -31,7 +42,10 @@
 //  console.log(typeof rating)
 //  console.log(typeof discount)
 //  console.log(typeof avail)
-//  console.log(typeof selle_details)
+//  console.log(typeof seller_details)
+
+//=======================================================
+
 
 //  let a=77;
 //  let b="90";
@@ -44,7 +58,7 @@
 //  console.log(a*d)
 //  console.log(a*e)
 //  console.log(a*f)
-
+//=================================================
 
 // CONDITIONAL STSTEMENTS
 //  let a=(6)
@@ -200,9 +214,7 @@
 // console.log(emp.loc)
 
 
-// //ubdate&delete
-
-
+// //update&delete
 
 //  let emp={eid:202,ename:"hari",esal:45000.78}
 //  emp.esal=55000.99
